@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+.parent {
+    width: 70%;
+    height: 70%;
+    background-color: orange;
+    display: flex;
+    overflow: hidden;
+}
+
+.box {
+    font-size: 4rem;
+}
+ 
+.box {
+    width: 100%;
+    height: 100% ;
+}
+
+.box0 {
+    background-color: red;
+}
+
+.box1 {
+    background-color: green;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+button {
+    padding: 1rem;
+}
+
+/* hidden */
+.hidden {
+    display: none;
+}
